@@ -130,6 +130,7 @@ class CarRentalSystem{
             System.out.println("Enter your choice: ");
 
             int choice = sc.nextInt();
+            sc.nextLine();
 
             if(choice == 1){
                 System.out.println("\n === Rent a car == \n");
@@ -148,6 +149,7 @@ class CarRentalSystem{
 
                 System.out.println("Enter the no of days for rental : ");
                 int rentalDays = sc.nextInt();
+                sc.nextLine();
 
                 Customer newCustomer = new Customer("Cus" + (customers.size() +1),customerName);
                 addCustomers(newCustomer);
@@ -172,6 +174,7 @@ class CarRentalSystem{
 
                     System.out.println("\n Confirm rental (Y/N): ");
                     String confirm = sc.nextLine();
+                    sc.nextLine();
 
                     if(confirm.equalsIgnoreCase("Y")){
                         rentCars(selectedCar, newCustomer, rentalDays);
