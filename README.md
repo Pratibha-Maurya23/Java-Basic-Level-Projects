@@ -71,16 +71,27 @@ Pre-configured with:
 
 ### Project Structure   
 Java-OOP-Projects/
+<br>
 ├── CarRentalSystem/
+<br>
 │ ├── Main.java # Entry point
+<br>
 │ ├── Car.java # Car entity
+<br>
 │ ├── Customer.java # Customer entity
+<br>
 │ └── Rental.java # Rental transaction
+<br>
 │
+<br>
 └── EmployeePayroll/
+<br>
 ├── Main.java # Entry point
+<br>
 ├── Employee.java # Abstract base class
+<br>
 ├── FullTimeEmployee.java # Full-time implementation
+<br>
 └── PartTimeEmployee.java # Part-time implementation
 
 
