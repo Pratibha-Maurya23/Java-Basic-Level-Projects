@@ -69,7 +69,7 @@ Pre-configured with:
 - 3 full-time employees
 - 2 part-time employees
 
-## Project Structure   
+### Project Structure   
 Java-OOP-Projects/
 ├── CarRentalSystem/
 │ ├── Main.java # Entry point
@@ -91,6 +91,8 @@ Java-OOP-Projects/
 - Console I/O
 
 ## Author
-Pratibha Maurya 
+Pratibha Maurya
+<br>
 pratibhacse20@gmail.com
+<br>
 https://github.com/Pratibha-Maurya23
